@@ -88,6 +88,7 @@ a {
   padding: 1.5em 1.5em 30em;
   width: 31.25%;
   display: inline-block;
+  background: linear-gradient(to  right ,rgba(68, 124, 101, 0.459), rgba(173, 92, 142, 0.9));
 }
 
 .sidebar-back-color {
@@ -115,7 +116,7 @@ a {
 }
 
 .avatar img {
-  border-radius: 0.3125em;
+  border-radius: 50%;
   max-width: 100%;
   border: 0.25em solid #fff;
 }
@@ -191,6 +192,25 @@ a {
 
 .main-section .section-header {
   border-bottom: 1px solid #ccc;
+}
+
+.aboutMe {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 5px 0 5px 0;
+  padding: 10px 0px 20px 0px;
+}
+
+.favorite {
+  display: flex;
+}
+
+.favorite-item {
+  width: max-content;
+  height: max-content;
+  padding: 5px;
+  background: rgba(33, 0, 0, 0.1);
+  margin:10px 0px 20px 5px ;
+  border-radius: 5px;
 }
 
 .main-section .section-header h2 {
